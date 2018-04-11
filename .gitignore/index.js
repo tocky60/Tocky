@@ -26,7 +26,7 @@ client.on('message', message => {
   }
 
   if (message.content === 'lucas'){
-      message.channel.send('Hey',{files: ["unnamed.jpg"]});
+      message.channel.send('Hey',{files: [".gitignore/unnamed.jpg"]});
   }
     
 });
